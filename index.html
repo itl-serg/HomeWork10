@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/splide-core.min.css">
     <link rel="stylesheet" href="css/main.css">
     <title>MoDest</title>
 </head>
@@ -32,24 +33,69 @@
                 </ul>
             </nav>
         </div>
+
     </header>
     <!-- End header -->
 
-    <!-- Article slider -->
-    <article class="article-slider-wrapper">
+    <!-- Gallery -->
+    <div class="gallery-wrapper">
 
         <div class="splide">
             <div class="splide__track">
                 <ul class="splide__list">
-                    <li class="splide__slide"><img src="images/slider-1.jpg" alt="welcome to our marketplace"></li>
-                    <li class="splide__slide">Slide 02</li>
-                    <li class="splide__slide">Slide 03</li>
+                    <li class="splide__slide">
+                        <img src="images/slider-1.jpg" alt="marketplace">
+                        <div class="gallery-info-wrapper">
+                            <div class="gallery-info">
+                                <span>welcome to our marketplace</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique
+                                    ndolor
+                                    non, ornare sagittis dolor. Nulla vestibulu lacus ...</p>
+                                <div class="gallery-button">
+                                    <a href="#">view more</a>
+                                    <a href="#">video tour</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <img src="images/slider-2.jpg" alt="marketplace">
+                        <div class="gallery-info-wrapper">
+                            <div class="gallery-info">
+                                <span>welcome to the second slide</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, veniam? Atque
+                                    doloremque tempora inventore sit eius corporis voluptates itaque, fugiat soluta
+                                    veritatis minus eaque reiciendis! ...</p>
+                                <div class="gallery-button">
+                                    <a href="#">previous</a>
+
+                                    <a href="#">next</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <img src="images/slider-3.jpg" alt="marketplace">
+                        <div class="gallery-info-wrapper">
+                            <div class="gallery-info">
+                                <span>welcome to the third slide</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur ...</p>
+                                <div class="gallery-button">
+                                    <a href="">back more</a>
+
+                                    <a href="">next tour</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
 
-    </article>
-    <!-- End article slider -->
+    </div>
+    <!-- End gallery -->
 
     <script src="js/splide.min.js"></script>
     <script src="js/main.js"></script>
