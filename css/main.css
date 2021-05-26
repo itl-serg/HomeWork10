@@ -103,6 +103,7 @@ body {
 .gallery-info {
   width: 660px;
   height: 200px;
+  margin-bottom: 7px;
 }
 .gallery-info span {
   display: block;
@@ -143,7 +144,7 @@ body {
 .splide__pagination {
   position: absolute;
   left: 50%;
-  bottom: 31px;
+  bottom: 35px;
   justify-content: flex-end;
   width: 570px;
 }
@@ -154,7 +155,7 @@ body {
   border-radius: 50%;
   border: 2px solid #fff;
   padding: 0;
-  margin-left: 10px;
+  margin-left: 9px;
 }
 .splide__pagination__page.is-active {
   background: #fff;
